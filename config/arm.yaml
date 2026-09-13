@@ -1,0 +1,2 @@
+link_length: 0.90 # 臂长 m
+max_angular_speed: 15.0 # 最大角速度 rad/s

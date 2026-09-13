@@ -1,0 +1,7 @@
+mass: 0.005 # 球质量 kg
+radius: 0.030 # 球半径 m
+cd_low: 0.48 # 高速时阻力系数下限
+cd_high: 0.73 # 低速时阻力系数上限
+transition_speed: 9.0 # 阻力系数过渡速度 m/s
+air_density: 1.225 # 空气密度 kg/m^3
+gravity: 9.81 # 重力加速度 m/s^2

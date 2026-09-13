@@ -1,0 +1,7 @@
+profiles:
+  sponge: # 全向轮档位
+    max_vx: 3.0 # x 方向最大速度 m/s
+    max_vy: 3.0 # y 方向最大速度 m/s
+    max_accel: 6.0 # 最大加速度 m/s^2
+    x_range: [-1.5, 1.5] # 可达范围
+    y_range: [-3.0, 3.0]

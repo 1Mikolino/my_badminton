@@ -1,0 +1,4 @@
+fps: 120 # 帧率
+delay_frames: 2 # 处理延迟（帧）
+detection_prob: 0.95 # 检测概率
+noise_std: 0.010 # 位置噪声标准差 m
