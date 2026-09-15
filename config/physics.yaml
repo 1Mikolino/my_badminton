@@ -5,3 +5,9 @@ cd_high: 0.73 # 低速时阻力系数上限
 transition_speed: 9.0 # 阻力系数过渡速度 m/s
 air_density: 1.225 # 空气密度 kg/m^3
 gravity: 9.81 # 重力加速度 m/s^2
+# ===== 轨迹外推 (rollout) =====
+sim_dt: 0.008 # 仿真步长 s（给后面的 MuJoCo 用）
+rollout_dt: 0.01 # 轨迹采样步长 s
+rollout_substeps: 2 # 每个采样区间的 RK4 子步数 → 子步 = 0.01/2 = 0.005 s
+rollout_horizon: 2.0 # 轨迹前瞻 s
+ground_z: 0.0 # 地面高度 m（球心 z 低于此值视为落地）
